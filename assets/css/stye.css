@@ -177,49 +177,96 @@ footer p {
         width: 860px;
     }
     .space {
-        width: 500px;
+        width: 580px;
         float: left;
         margin-left: 40px;
     }
     #name {
-        width: 475px;
+        width: 555px;
     }
     #email {
-        width: 475px;
+        width: 555px;
     }
     #subject {
-        width: 475px;
+        width: 555px;
     }
     .gallery {
         width: 500px;
     }
     .gallery img{
-        padding: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     }
 
-    /* @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         .banner {
-            width: 860px;
+            width: 648px;
         }
         .space {
-            width: 500px;
-            float: left;
-            margin-left: 40px;
+            width: 580px;
+            float: none;
+            margin-left:auto;
+            margin-right: auto;
         }
         #name {
-            width: 475px;
+            width: 555px;
         }
         #email {
-            width: 475px;
+            width: 555px;
         }
         #subject {
-            width: 475px;
-        }
+            width: 555px;
+        } */
         .gallery {
             width: 500px;
         }
         .gallery img{
-            padding: 25px;
+            padding-left: 25px;
+            padding-right: 25px;
         }
-        } */
+        }
+        @media screen and (max-width: 640px) {
+            .banner {
+                width: 640px;
+                height: auto;
+            }
+            header {
+                width: 100%;
+                text-align: center;
+            }
+            ul {
+                width: 100%;
+                background-color: #ffffff;
+                padding-left: 207px;
+                float:left;
+                border-bottom-style: solid;
+                border-bottom-color: #cccccc;
+                padding-top:5px;
+                padding-bottom: 5px;
+            }
+
+            .space {
+                width: 500px;
+                float: none;
+                margin-top: 80px;
+                margin-left:auto;
+                margin-right: auto;
+            }
+            #name {
+                width: 475px;
+            }
+            #email {
+                width: 475px;
+            }
+            #subject {
+                width: 475px;
+            } */
+            .gallery {
+                width: 420px;
+            }
+            .gallery img{
+                padding-left: 125px;
+                padding-right: 125px;
+            }
+            }
